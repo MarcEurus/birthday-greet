@@ -1,27 +1,28 @@
 @media (max-width: 768px) {
 
-  .modal-content {
+.modal-content {
     padding: 2rem;
     font-size: 0.95rem;
-  }
+}
 
-  #instruction-text p {
+#instruction-text p {
     font-size: 1.1rem;
     text-align: center;
     padding: 0 1rem;
-  }
+}
 
-  .close-button {
+.close-button {
     font-size: 0.9rem;
     padding: 0.5rem 1.2rem;
-  }
 }
 
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  overflow-x: hidden;
+font-family: 'Segoe UI', sans-serif;
+overflow: hidden;
 }
+}
+
