@@ -2,7 +2,7 @@
 
 .modal-content {
     transform: scale(0.85);
-    transform-origin: top center;
+    transform-origin: center;
     max-height: 90vh;
     overflow-y: auto;
     box-sizing: border-box;
