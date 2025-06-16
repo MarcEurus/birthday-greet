@@ -1,11 +1,16 @@
 @media (max-width: 768px) {
 
 .modal-content {
-    padding: 1.5rem;
-    font-size: 0.9rem;
-    width: 95%;
-    max-height: 80vh;
+    transform: scale(0.85);
+    transform-origin: top center;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
   }
+
+.modal {
+  overflow: hidden;
+}
 
 #instruction-text p {
     font-size: 1.1rem;
