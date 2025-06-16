@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   startButton.addEventListener("click", function () {
     startScreen.style.display = "none";
 
-    const birthdayAudio = new Audio("birthday.mp3");
+    const birthdayAudio = new Audio("Birthday.mp3");
     birthdayAudio.loop = true;
 
     if (navigator.mediaDevices.getUserMedia) {
