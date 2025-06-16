@@ -1,9 +1,11 @@
 @media (max-width: 768px) {
 
 .modal-content {
-    padding: 2rem;
-    font-size: 0.95rem;
-}
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    width: 95%;
+    max-height: 80vh;
+  }
 
 #instruction-text p {
     font-size: 1.1rem;
