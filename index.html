@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="cake.css">
+    <link rel="stylesheet" href="message.css">
+    <link rel="stylesheet" href="instruction.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+            <div class="flame"></div>
+        </div>
+        <div id="instruction-text">
+            <p>✨ Blow the candle to reveal your message ✨</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div id="birthdayMessage" class="modal hidden">
+        <div class="modal-content">
+            <h2>🎉 HAPPY BIRTHDAY BUBBY! 🎉</h2>
+                <p>
+                    I can't think of any gift for you kasi wala ako pera eh. Na isip ko gumawa na lang ako ng 
+                    letter pero hindi ko naman alam paano ko mabibigay sa'yo kasi na sa Manila ka and may pasok ka.
+                    Buti naalala ko IT nga pala ako at kaya ko intindihin si ChatGPT. Bawi na lang ako pag nag 
+                    ka oras ka na at tapos ka na sa lahat ng gawain mo bilang marangal na estudyante ka ng UST.
+                </p>
+                <p>
+                    I hope I made your day special kahit di tayo nakalabas or what. HAHAHA next year twenty ka na. 
+                    Di ka na teenager, gurang ka na. Sana mapasa mo lahat ng tinetake mong subject right now at maging 
+                    regular ka na. Akalain mo yon ang tagal na natin. Wishing the best for us as well. 
+                </p>
+                <p>
+                    I love you and happy birthday again bubby. Enjoy your day! See you soon! Mwa ^3^
+                </p>
+            <button id="closeMessage" class="close-button">Close</button>
+        </div>
+    </div>
+</body>
+
+</html>
