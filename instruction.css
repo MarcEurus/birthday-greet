@@ -18,3 +18,29 @@
   50% { opacity: 0.85; transform: scale(1.03); }
   100% { opacity: 1; transform: scale(1); }
 }
+
+.start-screen {
+  position: fixed;
+  inset: 0;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+#startButton {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #ff80aa;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#startButton:hover {
+  background-color: #e73370;
+}
