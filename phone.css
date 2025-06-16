@@ -7,7 +7,7 @@
   }
 
 .modal {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #instruction-text p {
